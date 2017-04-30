@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="dotnet-example-tool" Version="0.1.0" />
+  </ItemGroup>
+
+  <Target Name="RunExampleTool" BeforeTargets="CoreCompile">
+    <Exec Command="dotnet example-tool" WorkingDirectory="$(ProjectDir)" />
+  </Target>
+
+</Project>

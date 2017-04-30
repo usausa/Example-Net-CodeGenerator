@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <PackageTargetFallback>dnxcore50;portable-net45+win8+wp8+wpa81</PackageTargetFallback>
+    <PackageType>DotNetCliTool</PackageType>
+    <AssemblyName>dotnet-example-tool</AssemblyName>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+</Project>
