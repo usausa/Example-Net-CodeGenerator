@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Example.Client
+﻿namespace Example.Client
 {
+    using System;
+
     using Example.Library;
     using Example.Client.Network;
 

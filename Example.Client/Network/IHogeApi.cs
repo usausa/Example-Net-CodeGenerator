@@ -10,17 +10,4 @@
         [Method("Subtract")]
         int Sub([Parameter("x")] int a, [Parameter("y")] int b);
     }
-
-    public interface IBar
-    {
-        int Test();
-    }
-}
-
-namespace Example.Client.Network2
-{
-    public interface IHoge
-    {
-        void Test();
-    }
 }
