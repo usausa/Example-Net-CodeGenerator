@@ -117,7 +117,7 @@
                     sb.Append("        private readonly global::Example.Library.MethodMetadata methodMetadata")
                         .Append(i)
                         .Append(" = global::Example.Library.MetadataFactory.CreateMethodMetadata(typeof(")
-                        .Append(className)
+                        .Append(@class.Interface)
                         .Append("), \"")
                         .Append(method.Name)
                         .Append("\", new Type[] { ")
